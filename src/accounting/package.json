@@ -1,0 +1,26 @@
+{
+  "name": "accounting-system",
+  "version": "1.0.0",
+  "description": "Account Management System - Node.js implementation of COBOL legacy application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest",
+    "test:watch": "jest --watch",
+    "test:coverage": "jest --coverage"
+  },
+  "keywords": [
+    "accounting",
+    "account-management",
+    "cobol-modernization",
+    "nodejs"
+  ],
+  "author": "GitHub Skills",
+  "license": "MIT",
+  "devDependencies": {
+    "jest": "^29.0.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
